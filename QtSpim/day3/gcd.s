@@ -50,6 +50,7 @@ main:
     move $a0, $t0 
     syscall 
 
+end:
     li $v0, 10
     syscall
 

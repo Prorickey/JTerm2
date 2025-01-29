@@ -52,9 +52,6 @@ main:
     move $a0, $s0 
     syscall
 
-    j end
-
-
 end:
     li $v0, 10
     syscall 
