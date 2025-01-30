@@ -48,6 +48,9 @@ int main() {
 
     } while (running == 0);
 
+    // Because the Control+D inputs an EOF, stdin is closed...
+    // although this can be fixed by using this function below
+    // to collect more input
     clearerr(stdin);
 
     int num = 0;
