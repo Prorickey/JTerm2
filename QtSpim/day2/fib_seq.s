@@ -49,6 +49,7 @@ L1:
     move $a0, $t4 
     syscall 
 
+    # Print a newline
     li $v0, 4
     la $a0, cr 
     syscall

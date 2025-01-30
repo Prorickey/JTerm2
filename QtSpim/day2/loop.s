@@ -11,7 +11,7 @@ next:
     move $a0, $t0 
     syscall
 
-    # Do a cr 
+    # Print a new line
     li $v0, 4 
     la $a0, cr 
     syscall 

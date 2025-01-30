@@ -1,3 +1,7 @@
+# This program just jumps through all possible grades checking them and 
+# either jumping to the next grade, or printing an output and jumping
+# to the end
+
 .text 0x00400000
 
 li $v0, 4

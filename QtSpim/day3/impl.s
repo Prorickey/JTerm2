@@ -11,6 +11,11 @@ space: .asciiz " "
 
 .text 0x00400000
 
+# My teacher intended on using this to teach out about saving
+# data to the stack by making us preserve the variables, but
+# I just used other registers to avoid needing to do that.
+# I didn't do that intentionally, it was just easiest for me.
+
 main:
     li $s0, 12 # a
     li $s1, 8 # b
