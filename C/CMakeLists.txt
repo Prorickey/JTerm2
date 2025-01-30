@@ -3,4 +3,4 @@ project(C C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(C main.c)
+add_executable(terminal main.c)
